@@ -32,7 +32,7 @@ int main() {
     //Comparações entre valores totais dos produtos
     printf("O Valor total de A (R$ %.2f) é maior que o valor total de B (R$ %.2f)?: %d\n", estoqueA * valorA, estoqueB * valorB, (estoqueA * valorA) > (estoqueB * valorB));
 
-
+    
 
     return 0;
 }
