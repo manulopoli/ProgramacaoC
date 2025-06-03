@@ -2,39 +2,35 @@
 
 int main(){
 /*
-Soma (+)
-Subtração (-)
-Multiplicação (*)
-Divisão (/)
+Atribuicao Simples (=)
+Atribuicao com Soma (+=)
+Atribuicao com Subtracao (-=)
+atribuicao com Multiplicacao (*=)
+Atribuicao com Divisao (/=)
 
 */
 
-int numero1, numero2;
-int soma, subtracao, multiplicacao, divisao;
+int numero1 = 10, numero2, resultado;
 
-printf("Entre com o numero 1: \n");
-scanf("%d", &numero1);
+resultado = 10;
+printf("Resultado: %d\n", resultado);
 
-printf("Entre com o numero 2: \n");
-scanf("%d", &numero2);
+//resultado = resultado + 20;
+resultado += 20;
+printf("Resultado: %d\n", resultado);
 
+//resultado = resultado - numero1;
+resultado -= numero1;
+printf("Resultado: %d\n", resultado);
 
-    // operacao soma
-soma = numero1 + numero2;
+//resultado = resultado * 5;
+resultado *= 5;
+printf("Resultado: %d\n", resultado);
 
-    // operacao subtracao
-subtracao = numero1 - numero2;
+//resultado = resultado / 2;
+resultado /= 2;
+printf("Resultado: %d\n", resultado);
 
-    // operacao multiplicacao
-multiplicacao = numero1 * numero2;
-
-    // operacao divisao
-divisao = numero1 / numero2;
-
-printf("A Soma é: %d\n", soma);
-printf("A Subtracao é: %d\n", subtracao);
-printf("A Multiplicacao é: %d\n", multiplicacao);
-printf("A Divisao é: %d\n", divisao);
 
 
 
