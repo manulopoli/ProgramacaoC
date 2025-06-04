@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int main() {
   int dia;
     printf("Entre com o valor do dia:\n");
