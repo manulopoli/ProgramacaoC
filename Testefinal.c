@@ -174,16 +174,7 @@ int main() {
             default:
                 printf("Opção inválida! Tente novamente!\n");
             break;
-   }
-            
-
-
-
-  
-
-
-
-
+            }
 
     return 0;
 }
