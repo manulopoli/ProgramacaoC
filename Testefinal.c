@@ -78,6 +78,7 @@ int main() {
     // Lógica de comparação entre duas cartas:
 
     // início do jogo:
+    //Escolha do primeiro atributo:
     printf("Escolha o primeiro atributo:\n");
     printf("A. População\n");
     printf("B. Área\n");
@@ -125,14 +126,60 @@ int main() {
         break;
    }
 
+   //Escolha do segundo atributo:
+    printf("Escolha o primeiro atributo:\n");
+    printf("A. População\n");
+    printf("B. Área\n");
+    printf("C. PIB\n");
+    printf("D. Número de Pontos Turísticos\n");
+    printf("E. Densidade Demográfica\n");
+    
+    printf("Escolha a comparação: \n");
+    scanf("%c", &segundoatributo);
+        if (primeiroatributo == segundoatributo) {
+            printf("Você escolheu o mesmo atributo!\n");
+        } else {
+            switch (segundoatributo) {
+                
+            case 'A':
+            case 'a':
+                printf("Você escolheu a opção População\n");
+                resultado1 = populacao1 > populacao2 ? 1 : 0;
+            break;
+
+            case 'B':
+            case 'b':
+                printf("Você escolheu a opção Área\n");
+                resultado1 = area1 > area2 ? 1 : 0;
+            break;
+
+            case 'C':
+            case 'c':
+                printf("Você escolheu a opção PIB\n");
+                resultado1 = pib1 > pib2 ? 1 : 0;
+            break;
+    
+            case 'D':
+            case 'd':
+                printf("Você escolheu a opção Número de Pontos Turísticos\n");
+                resultado1 = NumeroPontosTuristicos1 > NumeroPontosTuristicos2 ? 1 : 0;
+            break;
+    
+            case 'E':
+            case 'e':
+                printf("Você escolheu a opção Densidade Demográfica\n");
+                resultado1 = densidadeDemografica1 > densidadeDemografica2 ? 1 : 0; 
+            break;
+
+            default:
+                printf("Opção inválida! Tente novamente!\n");
+            break;
+   }
+            
 
 
 
-
-
-
-
-
+  
 
 
 
