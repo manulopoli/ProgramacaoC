@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+#include <time.h>
+
 int main() {
   int idade = 20;
   char* resultado;
